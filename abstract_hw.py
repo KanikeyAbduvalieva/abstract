@@ -89,10 +89,6 @@ obj2 = Printer()
 #obj2.display('Hello, world!') 
 
 # Task 5
-'''Создай абстрактный класс Animal с методом make_sound(). Создай два класса Dog и
-Cat, которые реализуют этот метод (выводят «Гав!» и «Мяу!» соответственно).
-Пример вывода: Гав!             Мяу!     '''
-
 class Animal(ABC):
     @abstractmethod
     def make_sound(self):
@@ -167,8 +163,7 @@ class PostgreSQLDatabase(Database):
 obj1 = MySQLDatabase()
 obj2 = PostgreSQLDatabase()
 
-print(obj1.connect())
-print(obj1.disconnect())
-print(obj2.connect())
-print(obj2.disconnect())
-
+#print(obj1.connect())
+#print(obj1.disconnect())
+#print(obj2.connect())
+#print(obj2.disconnect())
